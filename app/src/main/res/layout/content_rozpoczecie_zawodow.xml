@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_rozpoczecie_zawodow"
+    tools:context=".rozpoczecie_zawodow"
+    tools:layout_editor_absoluteY="56dp"
+    >
+
+
+
+<Button
+    android:text="@string/pojedynek"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnPojedynek"
+    android:onClick="klikniecieRozpoczecieZawodowEkran"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    />
+
+<Button
+    android:text="@string/ranking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnRanking"
+    android:layout_below="@+id/btnPojedynek"
+    android:onClick="klikniecieRozpoczecieZawodowEkran"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="32dp"
+    />
+
+<Button
+    android:text="@string/grupaA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnGrupaA"
+    android:onClick="klikniecieRozpoczecieZawodowEkran"
+    android:layout_below="@+id/btnRanking"
+    android:layout_marginTop="32dp"
+    />
+
+<Button
+    android:text="@string/grupaB"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnGrupaB"
+    android:onClick="klikniecieRozpoczecieZawodowEkran"
+    android:layout_below="@+id/btnGrupaA"
+    android:layout_marginTop="32dp"
+/>
+
+
+</RelativeLayout>

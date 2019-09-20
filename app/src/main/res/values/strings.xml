@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">arm</string>
+    <string name="action_settings">Settings</string>
+    <string name="dodajZawodnika">Dodaj Zawodnika</string>
+    <string name="listaZawodnikow">Lista Zawodników</string>
+    <string name="rozpocznijZawody">Rozpocznij Zawody</string>
+    <string name="pojedynek">Pojedynek</string>
+    <string name="ranking">Ranking</string>
+    <string name="grupaA">Grupa A</string>
+    <string name="grupaB">Grupa B</string>
+
+
+    <string name="title_activity_lista__zawodnikow">Lista Zawodnikow</string>
+    <string name="title_activity_rozpoczecie_zawodow">Zawody</string>
+    <string name="title_activity_pojedynek">Pojedynek</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_grupa_A">Grupa A</string>
+    <string name="title_activity_grupa_B">Grupa B</string>
+    <string name="title_activity_grupa">GrupaA</string>
+    <string name="title_activity_grupa_b">GrupaB</string>
+
+
+</resources>

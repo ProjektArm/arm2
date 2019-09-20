@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".GrupaB"
+            android:label="@string/title_activity_grupa_b"
+            android:parentActivityName=".rozpoczecie_zawodow"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.rozpoczecie_zawodow" />
+        </activity>
+        <activity
+            android:name=".GrupaA"
+            android:label="@string/title_activity_grupa"
+            android:parentActivityName=".rozpoczecie_zawodow"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.rozpoczecie_zawodow" />
+        </activity>
+        <activity
+            android:name=".Ranking"
+            android:label="@string/title_activity_ranking"
+            android:parentActivityName=".rozpoczecie_zawodow"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.rozpoczecie_zawodow" />
+        </activity>
+        <activity
+            android:name=".Pojedynek"
+            android:label="@string/title_activity_pojedynek"
+            android:parentActivityName=".rozpoczecie_zawodow"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.rozpoczecie_zawodow" />
+        </activity>
+        <activity
+            android:name=".rozpoczecie_zawodow"
+            android:label="@string/title_activity_rozpoczecie_zawodow"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Lista_Zawodnikow"
+            android:label="@string/title_activity_lista__zawodnikow"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arm.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
